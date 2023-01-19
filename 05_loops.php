@@ -10,10 +10,17 @@
 //     $x++;
 // }
 
-$x = 1;
-do {
-    echo 'Number' . $x . '<br>';
-    $x++; 
-} while($x <= 5)
+// $x = 1;
+// do {
+//     echo 'Number' . $x . '<br>';
+//     $x++; 
+// } while($x <= 5)
 
+
+
+$posts = ['First Post', 'Second Post', 'Third Posts'];
+
+for($x = 0; $x < count($posts); $x++){
+     echo $posts[$x];
+}
 ?>
