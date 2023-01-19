@@ -21,7 +21,7 @@
 //         echo "Good evening";
 //     } 
 
-$posts = ['First Post'];
+$posts = [];
 
 // if(!empty($posts)){
 //     echo $posts[0];
@@ -32,10 +32,30 @@ $posts = ['First Post'];
 
 
 
-$firstPost = !empty($posts) ? $posts[0] : "No Posts";
+// $firstPost = !empty($posts) ? $posts[0] : "No Posts";
 
-$firstPost = !empty($posts) ? $posts[0] : null;
+// $firstPost = !empty($posts) ? $posts[0] : null;
 
-echo $firstPost;
+// $firstPost = $posts[0] ?? null;
+// echo $firstPost;
+
+
+$favcolor = 'blue';
+
+switch($favcolor){
+    case 'red':
+        echo "Your favorite color is red";
+    break;
+    case 'blue':
+        echo "Your favorite color is blue";
+    break;
+    case 'green':
+        echo "Your favorite color is green";
+    break;
+    default:
+    echo "Your favorite color is not red, green or blue";
+
+
+}
 
 ?>
