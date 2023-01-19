@@ -18,9 +18,9 @@
 
 
 
-$posts = ['First Post', 'Second Post', 'Third Posts'];
+// $posts = ['First Post', 'Second Post', 'Third Posts'];
 
-for($x = 0; $x < count($posts); $x++){
-     echo $posts[$x];
-}
+// for($x = 0; $x < count($posts); $x++){
+//      echo $posts[$x];
+// }
 ?>
