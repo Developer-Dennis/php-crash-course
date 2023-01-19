@@ -18,16 +18,27 @@
 
 
 
-$posts = ['First Post', 'Second Post', 'Third Posts'];
+// $posts = ['First Post', 'Second Post', 'Third Posts'];
 
-// for($x = 0; $x < count($posts); $x++){
-//      echo $posts[$x];
-// }
+// // for($x = 0; $x < count($posts); $x++){
+// //      echo $posts[$x];
+// // }
 
 
-foreach($posts as $index=> $post){
-    echo $index . '-' .$post . '<br>';
-};
+// foreach($posts as $index=> $post){
+//     echo $index . '-' .$post . '<br>';
+// };
 
+
+
+$person = [
+    'first_name' => 'Dennis',
+    'last_name' => 'Kemboi',
+    'email' => 'denkogei24@gmail.com',
+];
+
+foreach($person as $key => $value){
+    echo "$key - $value <br>";
+}
 
 ?>
