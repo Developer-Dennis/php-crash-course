@@ -18,9 +18,16 @@
 
 
 
-// $posts = ['First Post', 'Second Post', 'Third Posts'];
+$posts = ['First Post', 'Second Post', 'Third Posts'];
 
 // for($x = 0; $x < count($posts); $x++){
 //      echo $posts[$x];
 // }
+
+
+foreach($posts as $index=> $post){
+    echo $index . '-' .$post . '<br>';
+};
+
+
 ?>
