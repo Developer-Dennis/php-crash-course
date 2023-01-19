@@ -29,6 +29,13 @@ $posts = ['First Post'];
 //     echo "No Post";
 // }
 
-echo !empty($posts) ? $posts[0] : "No Posts";
+
+
+
+$firstPost = !empty($posts) ? $posts[0] : "No Posts";
+
+$firstPost = !empty($posts) ? $posts[0] : null;
+
+echo $firstPost;
 
 ?>
