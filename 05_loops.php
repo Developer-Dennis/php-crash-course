@@ -4,9 +4,16 @@
     // }
 
 
+// $x = 1;
+// while($x <= 15){
+//     echo 'Number' . $x . '<br>';
+//     $x++;
+// }
+
 $x = 1;
-while($x <= 15){
+do {
     echo 'Number' . $x . '<br>';
-    $x++;
-}
+    $x++; 
+} while($x <= 5)
+
 ?>
