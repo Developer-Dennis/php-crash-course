@@ -6,6 +6,10 @@ $fruits = ['apples', 'oranges', 'pear'];
 // echo count($fruits);
 
 // search array
-var_dump(in_array('apples', $fruits));
+// var_dump(in_array('apples', $fruits));
+
+$fruits[] = 'grape';
+array_push($fruits, 'banana');
+print_r($fruits)
 
 ?>
