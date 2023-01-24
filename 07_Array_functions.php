@@ -12,12 +12,15 @@ $fruits[] = 'grape';
  array_push($fruits, 'banana');
 array_unshift($fruits, 'mangoes');
 
-
-// remove from an array
+// remove from the end of array
 
 array_pop($fruits);
-print_r($fruits)
 
+// remove from the start of array
+
+array_shift(($fruits));
+
+print_r($fruits)
 
 
 
