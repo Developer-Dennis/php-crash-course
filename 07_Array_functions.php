@@ -20,6 +20,9 @@ array_pop($fruits);
 
 array_shift($fruits);
 
+// remove specific
+unset($fruits[2]);
+
 print_r($fruits)
 
 
