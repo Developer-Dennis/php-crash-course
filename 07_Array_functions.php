@@ -54,5 +54,10 @@ $flipped = array_flip($c);
 // print_r($flipped);
 
 $numbers = range(1, 20);
-print_r($numbers);
+// print_r($numbers);
+
+$newNumbers = array_map(function($number){
+    return "Number ${number}";
+}, $numbers);
+print_r($newNumbers)
 ?>
