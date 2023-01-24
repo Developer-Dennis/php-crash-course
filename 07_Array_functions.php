@@ -45,5 +45,14 @@ $a = ['green','red','yellow'];
 $b = ['avocado', 'apple', 'banana'];
 
 $c = array_combine($a, $b);
-print_r($c);
+// print_r($c);
+
+$keys = array_keys($c);
+// print_r($keys)
+
+$flipped = array_flip($c);
+// print_r($flipped);
+
+$numbers = range(1, 20);
+print_r($numbers);
 ?>
