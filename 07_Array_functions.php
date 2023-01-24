@@ -1,5 +1,5 @@
 <?php
-$fruits = ['apples', 'oranges', 'pear'];
+// $fruits = ['apples', 'oranges', 'pear'];
 
 // get length of an array
 
@@ -37,6 +37,9 @@ $arr1 = [1,2,3];
 $arr2 = [4,5,6];
 
 $arr3 = array_merge($arr1, $arr2);
+$arr4 = [...$arr1, ...$arr2];
 
-print_r($arr3);
+print_r($arr4);
+
+
 ?>
