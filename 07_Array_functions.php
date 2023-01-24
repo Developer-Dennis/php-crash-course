@@ -18,7 +18,7 @@ array_pop($fruits);
 
 // remove from the start of array
 
-array_shift(($fruits));
+array_shift($fruits);
 
 print_r($fruits)
 
